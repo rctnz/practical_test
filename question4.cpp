@@ -33,6 +33,21 @@
 // จำนวนครั้งการปฏิเสธคำสั่ง
 // จำนวนครั้งการเปลี่ยนทิศทาง
 
+// ex.
+
+// 6
+// R 30
+// D 20
+// R 30
+// L 40
+// D 20
+// D 80
+// x = 40 , y = 10
+// Total distance : 110
+// Total reject : 2
+// Direction changed : 3
+	
+
 #include <stdio.h>
 int turncount=0,check;
 void turncountt(int direction,int tmp){
